@@ -1,4 +1,5 @@
 var surnames = ['Bianchi', 'Neri', 'Rossi', 'Verdi', 'Gialli'];
+console.log(surnames);
 
 //1. chiedi all’utente il cognome
 var userSurname = prompt('Inserisci il tuo cognome');
@@ -8,7 +9,6 @@ var userSurname = userSurname.charAt(0).toUpperCase() + userSurname.slice(1);
 
 //2. inseriscilo in un array con altri cognomi: ‘Bianchi’, ‘Neri’, ‘Rossi’, ‘Verdi’, ‘Gialli’
 surnames.push(userSurname);
-console.log(surnames);
 
 //3. stampa la lista ordinata alfabeticamente
 var sortedSurnames = surnames.sort();
