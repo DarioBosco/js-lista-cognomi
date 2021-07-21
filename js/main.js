@@ -5,7 +5,7 @@ console.log(surnames);
 var userSurname = prompt('Inserisci il tuo cognome');
 
 //Inserisco anche la prima lettera dell'input maiuscola
-userSurname = userSurname.charAt(0).toUpperCase() + userSurname.slice(1);
+userSurname = userSurname.charAt(0).toUpperCase() + userSurname.slice(1).toLowerCase();
 
 //2. inseriscilo in un array con altri cognomi: ‘Bianchi’, ‘Neri’, ‘Rossi’, ‘Verdi’, ‘Gialli’
 surnames.push(userSurname);
